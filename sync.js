@@ -36,6 +36,3 @@ const sync = (arr1, arr2) => {
 
   return singleNumbers;
 }
-
-console.log(sync([1, 2, 3], [1, 3, 4]));
-

@@ -49,3 +49,9 @@ console.log(
     { "key1": "value", "key2": { "key3": 1 } }
   )
 );
+
+console.log(
+  deepEquality2(
+    {"key1" : "value1", "key2" : {"key3": 1}, "key4" : "value2"},
+    {"key1" : "value", "key2" : {"key3": 1}})
+);
